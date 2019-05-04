@@ -30,8 +30,10 @@ sh -c "cd temp && git clone https://github.com/powerline/fonts.git --depth=1 && 
 cp ./.zshrc ~/.zshrc
 chsh -s /bin/zsh
 
-# Setup Development Environment
+# === Setup VSCode Dev Environment ===  
 brew cask install visual-studio-code
+cp ./vscode.json ~/Library/Application Support/Code/User/settings.json
+
 
 
 open ~/Applications/iTerm.app

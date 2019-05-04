@@ -1,0 +1,23 @@
+{
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Roboto Mono for Powerline Regular, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "'Roboto Mono for Powerline Regular', Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "git.autofetch": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.jediEnabled": false,
+  "workbench.activityBar.visible": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.formatOnSave": false
+  },
+  "atlascode.jira.workingSite": {
+    "baseUrlSuffix": "atlassian.net"
+  },
+  "yaml.schemas": {
+    "file:///Users/lorderikir/.vscode/extensions/atlassian.atlascode-1.2.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  }
+}
