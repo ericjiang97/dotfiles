@@ -25,15 +25,16 @@ fi
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ### ======= SETUP VIM & ZSH CONFIGURATIONS ======= 
-cp ./.vimrc ~/.vimrc
+cp ./.config/.vimrc ~/.vimrc
 
 ### ======= iTerm2 Setup + ZSH Setup =======
 sh -c "cd temp && wget https://iterm2.com/downloads/stable/latest -O latest.zip && unzip latest.zip"
 mv ./temp/iTerm.app ~/Applications/iTerm.app
+rm -rf ./temp/iTerm.app
 cp ./com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 # Powerline Fonts
 sh -c "cd temp && git clone https://github.com/powerline/fonts.git --depth=1 && cd fonts && ./install.sh && cd .. && rm -rf fonts"
-cp ./.zshrc ~/.zshrc
+cp ./.config/.zshrc ~/.zshrc
 chsh -s /bin/zsh
 
 # ======= Setup VSCode Dev Environment =======  
@@ -55,7 +56,6 @@ brew install yarn --ignore-dependencies # install yarn without node depdenency
 # ======= Folder Setup =======
 cd ~/Documents
 mkdir Uni Work Work/MonPlan Tools
-
 
 # ======= Open Apps =======
 open ~/Applications/iTerm.app
