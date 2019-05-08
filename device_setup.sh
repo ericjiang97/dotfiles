@@ -52,6 +52,9 @@ nvm install node10
 nvm use node10
 brew install yarn --ignore-dependencies # install yarn without node depdenency
 
+# ======= Install Google Cloud SDK =======
+curl https://sdk.cloud.google.com | bash
+exec -l $SHELL
 
 # ======= Folder Setup =======
 cd ~/Documents
