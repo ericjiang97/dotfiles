@@ -48,8 +48,8 @@ brew install gradle
 
 # ======= Setup NodeJS Dev Environment ======= 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-nvm install node10
-nvm use node10
+nvm install 10
+nvm use 10
 brew install yarn --ignore-dependencies # install yarn without node depdenency
 
 # ======= Install Google Cloud SDK =======
