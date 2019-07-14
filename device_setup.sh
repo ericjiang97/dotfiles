@@ -24,6 +24,10 @@ fi
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+
+### ======= INSTALL POWERLEVEL9K =================
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
 ### ======= SETUP VIM & ZSH CONFIGURATIONS ======= 
 cp ./.config/.vimrc ~/.vimrc
 
